@@ -3,11 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Baap Er Bank</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
     <!-- Tailwind css CDN-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello Shiam</h1>
+    <!-- Header Section Start  -->
+    <header>
+        <!-- Title Section -->
+        <h1 class="text-5xl text-center mt-6">Welcome to your
+            <span class="font-semibold text-violet-600">Baap Er Bank</span>!!!
+        </h1>
+    </header>
+    <!-- Header Section End  -->
+    <!-- Main Section Start  -->
+    <main>
+        <section class="bg-violet-200 w-9/12 m-auto mt-12 p-8">
+            <h3 class="text-3xl mb-4">Please Login</h3>
+            <div>
+                <input class="w-9/12 block mb-2 p-1" type="email" placeholder="  Your email">
+                <input class="w-9/12 block mb-2 p-1" type="password" placeholder="  Your password">
+                <button class="bg-violet-600 text-white p-2 mt-2 rounded-md hover:bg-violet-800 ease-in duration-200  " >Submit</button>
+            </div>
+        </section>
+    </main>
+    <!-- Main Section End  -->
 </body>
 </html>
