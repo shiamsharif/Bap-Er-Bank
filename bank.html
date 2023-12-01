@@ -27,7 +27,7 @@
             <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
                 <div class="bg-green-400 p-8 rounded-xl">
                     <h4 class="text-2xl">Deposit</h4>
-                    <h2 class="text-5xl">TK 00</h2>
+                    <h2 class="text-5xl">TK <span id="deposit-total">00</span></h2>
                 </div>
                 <div class="bg-red-400 p-8 rounded-xl">
                     <h4 class="text-2xl">Withdrow</h4>
@@ -43,12 +43,12 @@
             <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto ">
                 <div class="bg-indigo-400 p-8 rounded-xl">
                     <h4 class="text-2xl text-white mb-2">Please Deposit</h4>
-                    <input  class="w-9/12 block mb-2 p-1" id="deposit-field" type="email" placeholder=" Deposit amount">
+                    <input  class="w-9/12 block mb-2 p-1" id="deposit-field" type="text" placeholder=" Deposit amount">
                     <button id="btn-deposit" class="bg-indigo-600 text-white p-2 px-3 mt-2 rounded-md hover:bg-indigo-800 ease-in duration-200  " >Deposit</button>
                 </div>
                 <div class="bg-sky-400 p-8 rounded-xl">
                     <h4 class="text-2xl text-white mb-2">Please Withdeow</h4>
-                    <input  class="w-9/12 block mb-2 p-1" id="withdeow-field" type="email" placeholder=" Withdeow amount">
+                    <input  class="w-9/12 block mb-2 p-1" id="withdeow-field" type="text" placeholder=" Withdeow amount">
                     <button id="btn-withdeow" class="bg-sky-600 text-white p-2 px-3 mt-2 rounded-md hover:bg-sky-800 ease-in duration-200  " >Withdeow</button>
                 </div>
             </div>
@@ -56,6 +56,6 @@
     </main>
     <!-- Main Section End  -->
 
-    <script src="js/login.js"></script>
+    <script src="js/deposit.js"></script>
 </body>
 </html>
