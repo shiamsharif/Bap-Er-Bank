@@ -12,10 +12,13 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     const password = passwordFiled.value;
 
     if(email === 'shiam.sharif.07@gmial.com' && password === 'bismillah'){
-        console.log("Valid user");
+        // SubmitButton to another HTML page
+        window.location.href = 'bank.html';
     }
     else{
-        console.log("inValid user");
+        alert('JA vaaag');
     }
 
 })
+
+
