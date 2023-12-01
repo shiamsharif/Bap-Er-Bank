@@ -27,6 +27,9 @@ document.getElementById('btn-deposit').addEventListener('click', function(){
     
     //Set the balance
     balanceTotalElemrnt.innerText = currentBalanceTotal;
+
+    //Step:7 clear the deposit field
+    depositField.value = '';
     
     
     // console.log(depositAmount);
